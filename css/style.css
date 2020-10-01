@@ -341,6 +341,19 @@ a:hover {
   width: 100%;
 }
 
+.overlay-color{
+    background: #376537d4;
+    opacity: .5;
+}
+
+.overlay-color h2{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
 /*------/ Owl carousel /------*/
 
 .owl-theme .owl-dots {
@@ -419,7 +432,7 @@ a:hover {
   display: inline-block;
   transition: all 0.6s ease-in-out;
   color: #ffffff;
-  background-color: #2eca6a;
+  background-color: #2157ba;
   opacity: .9;
 }
 
@@ -431,7 +444,7 @@ a:hover {
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-prev:hover,
 .nav-arrow-b .owl-arrow .owl-nav .owl-next:hover {
-  background-color: #26a356;
+  background-color: #2157ba;
 }
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-next {
