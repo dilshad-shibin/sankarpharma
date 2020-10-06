@@ -102,6 +102,26 @@
 		}
 	});
 
+	/*--/ Product owl /--*/
+	$('#product-carousel').owlCarousel({
+		loop: true,
+		autoplay: true,
+		margin: 30,
+		nav: false,
+		smartSpeed: 1000,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			769: {
+				items: 3,
+			},
+			992: {
+				items: 4,
+			}
+		}
+	});
+
 	/*--/ Property owl owl /--*/
 	$('#property-single-carousel').owlCarousel({
 		loop: true,
