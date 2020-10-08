@@ -258,12 +258,28 @@ a:hover {
 /*------/ Title /------*/
 
 .title-wrap {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+}
+
+.title-box{
+  position: relative;
+  padding-bottom: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .title-a {
   font-size: 2.6rem;
   font-weight: 600;
+}
+
+.title-box .title-a:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  height: 4px;
+  width: 70px;
+  background-color: #2157ba;
 }
 
 .title-link {
@@ -2103,4 +2119,41 @@ footer .credits {
 
 .card-vission p{
   color: #555555;
+}
+
+
+.product-content-box .header-box{
+  border-bottom: 1px solid #ddd;
+}
+
+.product-content-box .header-box span{
+  display: table-cell;
+    vertical-align: top;
+    font-size: 36px;
+    color: #01a8d5;
+    padding-top: 8px;
+    width: 50px;
+}
+
+.product-content-box .header-box h2{
+  font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #2157ba;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 18px;
+}
+
+.product-content-box p{
+  padding-top: 15px;
+}
+
+.bx-shadow{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.32);
+}
+
+.bx-shadow:hover{
+  box-shadow: 0 4px 8px rgba(0, 123, 256, 0.3);
+  transition: ease-in-out .5s;
 }
