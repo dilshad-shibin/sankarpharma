@@ -2157,3 +2157,17 @@ footer .credits {
   box-shadow: 0 4px 8px rgba(0, 123, 256, 0.3);
   transition: ease-in-out .5s;
 }
+
+
+.main-logo{
+  width: 100%;
+}
+
+@media(max-width: 576px){
+  .main-logo{
+    width: 50%;
+  }
+  .text-brand{
+    display: contents
+  }
+}
