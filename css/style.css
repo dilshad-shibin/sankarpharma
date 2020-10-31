@@ -272,6 +272,12 @@ a:hover {
   font-weight: 600;
 }
 
+@media(max-width: 576px){
+  .title-a{
+    font-size: 2rem;
+  }
+}
+
 .title-box .title-a:after{
   content: "";
   position: absolute;
@@ -560,6 +566,12 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.1);
+}
+
+@media(max-width: 576px){
+  .navbar-default{
+    padding: 15px 0;
+  }
 }
 
 .navbar-default .nav-search {
@@ -900,10 +912,38 @@ a:hover {
   color: #ffffff;
 }
 
+@media(max-width: 991px){
+  .intro{
+    height: 65vh;
+  }
+}
+@media(max-width: 767px){
+  .intro{
+    height: 55vh;
+  }
+}
+@media(max-width: 576px){
+  .intro{
+    height: 40vh;
+  }
+}
+
+@media(max-width: 400px){
+  .intro{
+    height: 30vh;
+  }
+}
+
 .intro .owl-theme .owl-dots {
   position: absolute;
   bottom: 70px;
   right: 50px;
+}
+
+@media(max-width: 576px){
+  .intro .owl-theme .owl-dots{
+    bottom: 80px;
+  }
 }
 
 .intro .owl-theme .owl-dots .owl-dot span {
@@ -928,8 +968,32 @@ a:hover {
   height: 70vh;
 }
 
+@media(max-width: 991px){
+  .intro .carousel-item-a{
+    height: 65vh;
+  }
+}
+@media(max-width: 767px){
+  .intro .carousel-item-a{
+    height: 55vh;
+  }
+}
+@media(max-width: 576px){
+  .intro .carousel-item-a{
+    height: 40vh;
+  }
+}
+
 .intro .carousel-item-a.bg-image {
   background-attachment: scroll;
+}
+
+@media(max-width: 576px){
+  .intro .carousel-item-a.bg-image {
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+  }
 }
 
 .intro .intro-content {
