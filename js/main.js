@@ -87,6 +87,8 @@
 	$('#property-carousel').owlCarousel({
 		loop: true,
 		autoplay: true,
+		nav: false,
+		dots: false,
 		margin: 30,
 		smartSpeed: 1000,
 		responsive: {
@@ -108,6 +110,7 @@
 		autoplay: true,
 		margin: 30,
 		nav: false,
+		dots: false,
 		smartSpeed: 1000,
 		responsive: {
 			0: {

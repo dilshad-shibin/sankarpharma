@@ -895,7 +895,7 @@ a:hover {
 ======================================*/
 
 .intro {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   color: #ffffff;
 }
@@ -925,7 +925,7 @@ a:hover {
 
 .intro .carousel-item-a {
   position: relative;
-  height: 100vh;
+  height: 70vh;
 }
 
 .intro .carousel-item-a.bg-image {
