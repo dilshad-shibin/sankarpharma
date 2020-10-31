@@ -376,6 +376,13 @@ a:hover {
   transform: translate(-50%,50%);
 }
 
+@media(max-width: 576px){
+  .overlay-color h2{
+    top: 25%;
+    font-size: 1.8rem;
+  }
+}
+
 /*------/ Owl carousel /------*/
 
 .owl-theme .owl-dots {
@@ -1226,6 +1233,12 @@ a:hover {
 
 .gallery-property {
   margin-bottom: 3rem;
+}
+
+@media(max-width: 576px){
+  .gallery-property{
+    margin-bottom: 0;
+  }
 }
 
 .property-price {
