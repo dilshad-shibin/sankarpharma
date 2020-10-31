@@ -1069,6 +1069,13 @@ a:hover {
   font-size: 2.2rem;
 }
 
+@media(max-width: 576px){
+  .intro-single .title-single-box .title-single {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+}
+
 .intro-single .breadcrumb-box {
   padding: 1rem 0 0 .5rem;
 }
@@ -2233,5 +2240,11 @@ footer .credits {
   }
   .text-brand{
     display: contents
+  }
+}
+
+@media(max-width: 991px){
+  .col-md-none{
+    display: none !important;
   }
 }
