@@ -1104,6 +1104,7 @@ a:hover {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  margin-bottom: 15px;
 }
 
 .card-box-a .img-a,
