@@ -2257,3 +2257,62 @@ footer .credits {
     display: none !important;
   }
 }
+
+.chart{
+  background: transparent;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+} 
+
+.chart:before{
+    content: "";
+    position: absolute;
+    border: 3px solid #2157ba;
+    border-top: 3px solid #2157ba;
+    border-right: 3px solid #2157ba;
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    animation: animateCircle 2s linear infinite;
+    -webkit-box-shadow: -7px 8px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -7px 8px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -7px 8px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+@media(max-width: 576px){
+  .chart{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@keyframes animateCircle{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+.chart-meta{
+  position: relative;
+  margin-top: 15px;
+}
+
+.fa-2{
+  font-size: 2rem;
+  color: #2157ba;
+}
+
+.color-darkgrey{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #808080;
+}
