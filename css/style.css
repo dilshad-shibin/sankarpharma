@@ -274,7 +274,7 @@ a:hover {
 
 @media(max-width: 576px){
   .title-a{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -573,6 +573,13 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.1);
+}
+
+@media(max-width:576px){
+  .navbar-default{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 
@@ -944,7 +951,10 @@ a:hover {
 
 @media(max-width: 576px){
   .intro .owl-theme .owl-dots{
-    bottom: 80px;
+    bottom: 60px;
+  }
+  .img-box-a .img-a{
+    height: 120px !important;
   }
 }
 
@@ -2149,6 +2159,9 @@ footer .credits {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
+  .intro-single {
+    padding-top: 6rem;
+  }
 }
 
 .product-grid{
@@ -2177,7 +2190,7 @@ footer .credits {
 }
 
 .product-grid .product-content h2{
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 500;
   margin: 20px 0;
   color: #2157ba;
@@ -2288,6 +2301,9 @@ footer .credits {
   .chart{
     width: 150px;
     height: 150px;
+  }
+  .chart:before{
+    animation: none;
   }
 }
 
