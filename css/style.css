@@ -240,7 +240,7 @@ a:hover {
 }
 
 .section-t4 {
-  padding-top: 4rem;
+  margin-top: 200px;
 }
 
 .section-t3 {
@@ -977,7 +977,7 @@ a:hover {
 
 .intro .carousel-item-a {
   position: relative;
-  height: 70vh;
+  height: 85vh;
 }
 
 @media(max-width: 991px){
@@ -2108,7 +2108,8 @@ footer .credits {
   }
 
   .section-t4 {
-    padding-top: 2rem;
+    padding-top: 3rem;
+    margin-top: 0;
   }
 
   .section-md-t3 {
@@ -2331,4 +2332,9 @@ footer .credits {
     font-size: 40px;
     font-weight: normal;
     color: #808080;
+}
+
+.testimonial-box{
+  margin: 0 auto;
+  max-width: 700px
 }

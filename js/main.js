@@ -160,6 +160,8 @@
 		margin: 0,
 		autoplay: true,
 		nav: true,
+		loop: true,
+		dots: true,
 		animateOut: 'fadeOut',
 		animateIn: 'fadeInUp',
 		navText: ['<i class="ion-ios-arrow-back" aria-hidden="true"></i>', '<i class="ion-ios-arrow-forward" aria-hidden="true"></i>'],
